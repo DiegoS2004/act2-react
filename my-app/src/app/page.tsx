@@ -15,10 +15,10 @@ export default function Home() {
           />
         </Link>
         <nav className="flex gap-4">
-          <Link href="/pag1" className="text-sm sm:text-base hover:underline">
+          <Link href="/" className="text-sm sm:text-base hover:underline">
             Home
           </Link>
-          <Link href="/" className="text-sm sm:text-base hover:underline">
+          <Link href="/page1" className="text-sm sm:text-base hover:underline">
             Pag1
           </Link>
           <Link href="/pag2" className="text-sm sm:text-base hover:underline">
