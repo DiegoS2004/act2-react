@@ -1,31 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Marketplace() {
+export default function Page1() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <header className="w-full flex justify-between items-center p-4 bg-gray-200 text-black">
-        <Link href="/" className="flex items-center gap-2">
-          <Image
-            src="/IMG_2914.jpg"
-            alt="Logo"
-            width={40}
-            height={40}
-            className="rounded-full"
-          />
-        </Link>
-        <nav className="flex gap-4">
-          <Link href="/" className="text-sm sm:text-base hover:underline">
-            Home
-          </Link>
-          <Link href="/page1" className="text-sm sm:text-base hover:underline">
-            Pag1
-          </Link>
-          <Link href="/pag2" className="text-sm sm:text-base hover:underline">
-            Pag2
-          </Link>
-        </nav>
-      </header>
       <main className="flex flex-col justify-center items-center h-full pt-20">
         <h1 className="text-4xl font-paprika">Guitar Marketplace</h1>
         <div className="flex flex-col items-center mt-8">
